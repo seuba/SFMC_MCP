@@ -1,0 +1,23 @@
+{
+  "name": "sfmc-mcp-v2",
+  "version": "2.0.0",
+  "description": "Enhanced MCP server for Salesforce Marketing Cloud with multi-BU support",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc && node build/index.js"
+  },
+  "keywords": ["mcp", "claude", "sfmc", "salesforce", "marketing", "cloud"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "axios": "^1.6.7",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "typescript": "^5.3.3"
+  }
+}
