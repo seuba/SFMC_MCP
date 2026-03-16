@@ -3,7 +3,7 @@ import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'
 import { z } from 'zod';
 import { SFMCClient } from './sfmc-client.js';
 
-// ── Config ────────────────────────────────────────────────────────────────────
+// ── Config MCP ────────────────────────────────────────────────────────────────────
 
 const cfg = {
     clientId: process.env.SFMC_CLIENT_ID ?? '',
