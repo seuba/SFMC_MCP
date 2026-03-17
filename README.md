@@ -3,11 +3,7 @@
 Overview        
                                                                                                                
   The SFMC MCP Server is a Model Context Protocol (MCP) integration that connects Claude Code to your
-  Salesforce Marketing Cloud instance. It allows you to interact with SFMC assets, data, and APIs using natural
-   language — no manual API calls or UI navigation required.
-
-Disclaimer: The author cannot be held responsible for any damage, data loss, or unintended consequences resulting from the use or misuse of this tool. You are fully responsible for how you apply it.
-
+  Salesforce Marketing Cloud instance.
 
 
 ## Features
@@ -87,4 +83,5 @@ To use this tool with Claude:
   "What automations do I have?"
   "Create an email called test"
 
+`Disclaimer: The author cannot be held responsible for any damage, data loss, or unintended consequences resulting from the use or misuse of this tool. `
 
